@@ -5,11 +5,11 @@ import org.springframework.context.annotation.Configuration;
 
 import com.studyboot.jdbc.util.JDBCConnectionManager;
 
-@Configuration
+//@Configuration
 public class BoardConfiguration {
 	
-	// 자동설정한 내용이 아닌 DB설정을 변경하고 싶을 경우 
-	@Bean
+	// 자동설정한 내용이 아닌 프로젝트내에서 DB설정을 특정값으로 변경하고 싶을 경우 
+	//@Bean
 	public JDBCConnectionManager getJDBConnectionManager() {
 		JDBCConnectionManager manager = new JDBCConnectionManager();
 		manager.setDriverClass("org.h2.Driver");
