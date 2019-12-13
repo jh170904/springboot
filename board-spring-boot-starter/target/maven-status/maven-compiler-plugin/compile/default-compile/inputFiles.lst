@@ -1,3 +1,4 @@
-D:\06.sts\work5_springboot\board-spring-boot-starter\src\main\java\com\studyboot\jdbc\util\JDBCConnectionManager.java
-D:\06.sts\work5_springboot\board-spring-boot-starter\src\main\java\com\studyboot\jdbc\config\BoardAutoConfiguration.java
-D:\06.sts\work5_springboot\board-spring-boot-starter\src\main\java\com\studyboot\App.java
+D:\06.sts\work5_springboot\git\springboot\board-spring-boot-starter\src\main\java\com\studyboot\App.java
+D:\06.sts\work5_springboot\git\springboot\board-spring-boot-starter\src\main\java\com\studyboot\jdbc\config\BoardAutoConfiguration.java
+D:\06.sts\work5_springboot\git\springboot\board-spring-boot-starter\src\main\java\com\studyboot\jdbc\config\JDBCConncetionManagerProperties.java
+D:\06.sts\work5_springboot\git\springboot\board-spring-boot-starter\src\main\java\com\studyboot\jdbc\util\JDBCConnectionManager.java
