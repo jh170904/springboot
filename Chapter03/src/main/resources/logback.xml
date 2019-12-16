@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration>
+<configuration>
+	<!-- 로그 경로 변수 선언 -->
+	<property name="LOG_DIR" value="./logs" />
+	<!-- Console appender -->
+	<appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level ---[%thread] %logger{50} - %msg%n</pattern>
+		</encoder>
+		<!-- INFO 레벨 필터 -->
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>INFO</level>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>ACCEPT</onMismatch><!-- 콘솔에 info로그만 출력 원할시 DENY -->
+		</filter>
+	</appender>
+	
+	<!-- RollingFile Appender -->
+	<appender name="fileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<!-- 파일 경로 -->
+		<file>src/main/resources/logs/board_log.log</file>
+		<!-- Rolling 정책 -->
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>src/main/resources/logs/myboard.%d{yyyy-MM-dd}.log.gz</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<!-- 출력 패턴 -->
+		<encoder>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level ---[%thread] %logger{50} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- 애플리케이션에 사용할 로거를 등록 -->
+	<logger name="com.studyboot" level="warn" additivity="false">
+		<level value="TRACE" />
+		<appender-ref ref="fileAppender" /> <!-- 로그 파일 작성 -->
+		<appender-ref ref="consoleAppender" /><!-- 콘솔 로그 작성 -->
+	</logger>
+	
+	<root level="WARN">
+		<appender-ref ref="consoleAppender" />
+	</root>
+</configuration>
