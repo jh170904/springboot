@@ -5,19 +5,14 @@ import java.util.Date;
 import javax.persistence.*;
 
 /**
- * Entity implementation class for Entity: Board
- * 키 생성 전략 : 테이블 전략
+ * Entity implementation class for Entity: Board3
+ * 키 생성 전략 : 자동전략
  */
 @Entity
-@TableGenerator(name = "BOARD_SEQ_GENERATOR",
-		table = "ALL_SEQUENCES", 				//ALL_SEQUENCES 라는 키 생성 테이블을 만듦
-		pkColumnValue = "BOARD_SEQ",			//BOARD_SEQ 이름으로 증가되는 값을 저장
-		initialValue = 0,						//처음 저장되는 번호는 0
-		allocationSize = 1)						//ALL_SEQUENCES 테이블에서 값을 한 번 꺼내 쓸 때마다 자동으로 1씩 증가
-public class Board {
+public class Board3 {
 	@Id
-	@GeneratedValue(strategy = GenerationType.TABLE, generator = "BOARD_SEQ_GENERATOR")
-	private Long seq; // 식별자 생성 전략을 GenerationType.TABLE 로 지정, BOARD_SEQ_GENERATOR 키 생성기 참조
+	@GeneratedValue // 식별자 필드에 @GeneratedValue만 사용하면 기본 값인 AUTO 적용
+	private Long seq; 
 	private String title;
 	private String writer; 
 	private String content;

@@ -1,6 +1,7 @@
 package com.studyboot;
 
 import java.util.Date;
+import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -11,24 +12,12 @@ import com.studyboot.domain.Board;
 import com.studyboot.domain.Board2;
 import com.studyboot.domain.Board3;
 
-public class JPAClient {
+public class JPAClientSelectList {
 	public static void main(String[] args) {
 		//EntityManager 생성
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("Chapter04");
 		EntityManager em = emf.createEntityManager();
-/*			
-		try {
-			//글 상세 조회
-			Board searchBoard = em.find(Board.class, 1L);
-			System.out.println(">>>>>> " + searchBoard.toString());
-		} catch (Exception e) {
-			e.printStackTrace();
-		} finally {
-			em.close();
-			emf.close();
-		}	
-*/
-		//글 등록
+		
 		//Transaction 생성
 		EntityTransaction tx = em.getTransaction();
 		
@@ -36,9 +25,9 @@ public class JPAClient {
 			//Transaction 시작
 			tx.begin();
 			Board3 board = new Board3();
-			board.setTitle("JPA 제목");
+			board.setTitle("어깨아파");
 			board.setWriter("관리자");
-			board.setContent("JPA 글 등록을 해보자");
+			board.setContent("스트레칭을 해주자");
 			board.setCreateDate(new Date());
 			board.setCnt(0L);
 		
@@ -47,6 +36,14 @@ public class JPAClient {
 			
 			//Transaction commit
 			tx.commit();
+			
+			//글 목록조회
+			String jpql = "select b from Board3 b order by b.seq desc";
+			List<Board3> boardList = em.createQuery(jpql,Board3.class).getResultList();
+			for (Board3 brd : boardList) {
+				System.out.println(">>> " + brd.toString());
+			}
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 			//Transaction rollback
@@ -55,6 +52,5 @@ public class JPAClient {
 			em.close();
 			emf.close();
 		}	
-
 	}
 }

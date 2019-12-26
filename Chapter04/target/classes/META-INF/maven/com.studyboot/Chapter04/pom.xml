@@ -31,7 +31,7 @@
 	<dependency>
 	    <groupId>com.h2database</groupId>
 	    <artifactId>h2</artifactId>
-	    <version>1.4.200</version>
+	    <version>1.4.197</version>
 	    <scope>test</scope>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
@@ -40,6 +40,5 @@
 	    <artifactId>hibernate-entitymanager</artifactId>
 	    <version>5.1.0.Final</version>
 	</dependency>
-	
   </dependencies>
 </project>
