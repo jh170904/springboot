@@ -11,39 +11,26 @@ import com.studyboot.domain.Board;
 import com.studyboot.domain.Board2;
 import com.studyboot.domain.Board3;
 
-public class JPAClient {
+public class JPAClientDelete {
 	public static void main(String[] args) {
 		//EntityManager 생성
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("Chapter04");
 		EntityManager em = emf.createEntityManager();
-/*			
-		try {
-			//글 상세 조회
-			Board searchBoard = em.find(Board.class, 1L);
-			System.out.println(">>>>>> " + searchBoard.toString());
-		} catch (Exception e) {
-			e.printStackTrace();
-		} finally {
-			em.close();
-			emf.close();
-		}	
-*/
-		//글 등록
+
+		//글 삭제
 		//Transaction 생성
 		EntityTransaction tx = em.getTransaction();
 		
 		try {
 			//Transaction 시작
 			tx.begin();
-			Board3 board = new Board3();
-			board.setTitle("JPA 제목");
-			board.setWriter("관리자");
-			board.setContent("JPA 글 등록을 해보자");
-			board.setCreateDate(new Date());
-			board.setCnt(0L);
-		
-			//글 등록
-			em.persist(board);
+			
+			//엔티티 조회
+			Board3 board = em.find(Board3.class, 1L);
+			board.setSeq(1L);
+			
+			//게시글 삭제
+			em.remove(board);
 			
 			//Transaction commit
 			tx.commit();

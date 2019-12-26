@@ -2,33 +2,24 @@
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="Chapter04">
 		<class>com.studyboot.domain.Board</class>
+		<class>com.studyboot.domain.Board2</class>
+		<class>com.studyboot.domain.Board3</class>
 		<properties>
 			<!-- 필수속성 -->
+			<!-- Don't forget to copy your JDBC driver to the lib/ directory -->
 			<property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
 			<property name="javax.persistence.jdbc.user" value="sa"/>
 			<property name="javax.persistence.jdbc.password" value=""/>
 			<property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/test"/>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />
-	    
-	        <!-- c3p0 config http://www.hibernate.org/214.html -->
- 	        <property name="connection.provider_class" value="org.hibernate.connection.C3P0ConnectionProvider"/>        
-	        <property name="hibernate.c3p0.acquire_increment" value="1"/>
-	        <property name="hibernate.c3p0.idle_test_period" value="60"/>
-	        <property name="hibernate.c3p0.min_size"  value="1"/>
-	        <property name="hibernate.c3p0.max_size"  value="2"/>
-	        <property name="hibernate.c3p0.max_statements"  value="50"/>
-	        <property name="hibernate.c3p0.timeout"  value="0"/>
-	        <property name="hibernate.c3p0.acquireRetryAttempts"  value="1"/>
-	        <property name="hibernate.c3p0.acquireRetryDelay" value="250"/>
-			<property name="hibernate.transaction.factory_class" value="org.hibernate.transaction.JDBCTransactionFactory"/>
-       		<property name="hibernate.current_session_context_class" value="thread"/>
-			
+		
 			<!-- 옵션 -->
+			<property name="connection.pool_size" value="1" />
 			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.format_sql" value="true" />
 			<property name="hibernate.use_sql_comments" value="false" />
 			<property name="hibernate.id.new_generator_mappings" value="true" />
-			<property name="hibernate.hbm2ddl.auto" value="create" />  
+			<property name="hibernate.hbm2ddl.auto" value="update" />
 		</properties>
 	</persistence-unit>
 </persistence>
