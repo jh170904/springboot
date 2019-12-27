@@ -25,7 +25,7 @@ public class QueryMethodTest {
 	private BoardRepository boardRepo;
 	
 	//테스트 메소드가 실행되기 전에 동작하여 테스트에서 사용할 데이터를 세팅
-	//@BeforeEach
+	@BeforeEach
 	public void dataPrepare() {
 		for(int i=1; i<=200; i++) {
 			Board b = new Board();
