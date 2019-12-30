@@ -1,0 +1,177 @@
+2019-12-16 15:44:08.211 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Starting Chapter03Application on DESKTOP-H5QR8N8 with PID 12596 (D:\06.sts\work5_springboot\Chapter03\target\classes started by 이정희 in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 15:44:08.214 DEBUG ---[restartedMain] com.studyboot.Chapter03Application - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 15:44:08.215 INFO  ---[restartedMain] com.studyboot.Chapter03Application - No active profile set, falling back to default profiles: default
+2019-12-16 15:44:09.778 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Started Chapter03Application in 1.934 seconds (JVM running for 3.814)
+2019-12-16 15:44:09.789 TRACE ---[restartedMain] com.studyboot.LoggingRunner - TRACE 로그메세지
+2019-12-16 15:44:09.789 DEBUG ---[restartedMain] com.studyboot.LoggingRunner - DEBUG 로그메세지
+2019-12-16 15:44:09.789 INFO  ---[restartedMain] com.studyboot.LoggingRunner - INFO 로그메세지
+2019-12-16 15:44:09.789 WARN  ---[restartedMain] com.studyboot.LoggingRunner - WARN 로그메세지
+2019-12-16 15:44:09.789 ERROR ---[restartedMain] com.studyboot.LoggingRunner - ERROR 로그메세지
+2019-12-16 15:44:20.333 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Starting Chapter03Application on DESKTOP-H5QR8N8 with PID 12596 (D:\06.sts\work5_springboot\Chapter03\target\classes started by 이정희 in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 15:44:20.333 DEBUG ---[restartedMain] com.studyboot.Chapter03Application - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 15:44:20.334 INFO  ---[restartedMain] com.studyboot.Chapter03Application - No active profile set, falling back to default profiles: default
+2019-12-16 15:44:20.777 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Started Chapter03Application in 0.481 seconds (JVM running for 14.813)
+2019-12-16 15:44:20.778 TRACE ---[restartedMain] com.studyboot.LoggingRunner - TRACE 로그메세지
+2019-12-16 15:44:20.778 DEBUG ---[restartedMain] com.studyboot.LoggingRunner - DEBUG 로그메세지
+2019-12-16 15:44:20.779 INFO  ---[restartedMain] com.studyboot.LoggingRunner - INFO 로그메세지
+2019-12-16 15:44:20.779 WARN  ---[restartedMain] com.studyboot.LoggingRunner - WARN 로그메세지
+2019-12-16 15:44:20.779 ERROR ---[restartedMain] com.studyboot.LoggingRunner - ERROR 로그메세지
+2019-12-16 15:44:24.303 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Starting Chapter03Application on DESKTOP-H5QR8N8 with PID 12596 (D:\06.sts\work5_springboot\Chapter03\target\classes started by 이정희 in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 15:44:24.303 DEBUG ---[restartedMain] com.studyboot.Chapter03Application - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 15:44:24.303 INFO  ---[restartedMain] com.studyboot.Chapter03Application - No active profile set, falling back to default profiles: default
+2019-12-16 15:44:24.697 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Started Chapter03Application in 0.429 seconds (JVM running for 18.733)
+2019-12-16 15:44:24.698 TRACE ---[restartedMain] com.studyboot.LoggingRunner - TRACE 로그메세지
+2019-12-16 15:44:24.699 DEBUG ---[restartedMain] com.studyboot.LoggingRunner - DEBUG 로그메세지
+2019-12-16 15:44:24.699 INFO  ---[restartedMain] com.studyboot.LoggingRunner - INFO 로그메세지
+2019-12-16 15:44:24.699 WARN  ---[restartedMain] com.studyboot.LoggingRunner - WARN 로그메세지
+2019-12-16 15:44:24.699 ERROR ---[restartedMain] com.studyboot.LoggingRunner - ERROR 로그메세지
+2019-12-16 15:49:18.468 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Starting Chapter03Application on DESKTOP-H5QR8N8 with PID 12596 (D:\06.sts\work5_springboot\Chapter03\target\classes started by 이정희 in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 15:49:18.468 DEBUG ---[restartedMain] com.studyboot.Chapter03Application - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 15:49:18.468 INFO  ---[restartedMain] com.studyboot.Chapter03Application - No active profile set, falling back to default profiles: default
+2019-12-16 15:49:18.815 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Started Chapter03Application in 0.376 seconds (JVM running for 312.851)
+2019-12-16 15:49:18.816 TRACE ---[restartedMain] com.studyboot.LoggingRunner - TRACE 로그메세지
+2019-12-16 15:49:18.816 DEBUG ---[restartedMain] com.studyboot.LoggingRunner - DEBUG 로그메세지
+2019-12-16 15:49:18.816 INFO  ---[restartedMain] com.studyboot.LoggingRunner - INFO 로그메세지
+2019-12-16 15:49:18.816 WARN  ---[restartedMain] com.studyboot.LoggingRunner - WARN 로그메세지
+2019-12-16 15:49:18.816 ERROR ---[restartedMain] com.studyboot.LoggingRunner - ERROR 로그메세지
+2019-12-16 15:56:59.333 INFO  ---[main] c.s.Chapter03ApplicationTests - Starting Chapter03ApplicationTests on DESKTOP-H5QR8N8 with PID 29284 (started by ������ in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 15:56:59.338 DEBUG ---[main] c.s.Chapter03ApplicationTests - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 15:56:59.339 INFO  ---[main] c.s.Chapter03ApplicationTests - No active profile set, falling back to default profiles: default
+2019-12-16 15:57:01.364 INFO  ---[main] c.s.Chapter03ApplicationTests - Started Chapter03ApplicationTests in 2.449 seconds (JVM running for 4.051)
+2019-12-16 15:57:01.365 TRACE ---[main] com.studyboot.LoggingRunner - TRACE �α׸޼���
+2019-12-16 15:57:01.365 DEBUG ---[main] com.studyboot.LoggingRunner - DEBUG �α׸޼���
+2019-12-16 15:57:01.366 INFO  ---[main] com.studyboot.LoggingRunner - INFO �α׸޼���
+2019-12-16 15:57:01.366 WARN  ---[main] com.studyboot.LoggingRunner - WARN �α׸޼���
+2019-12-16 15:57:01.366 ERROR ---[main] com.studyboot.LoggingRunner - ERROR �α׸޼���
+2019-12-16 15:57:01.772 INFO  ---[main] com.studyboot.BoardControllerTest - Starting BoardControllerTest on DESKTOP-H5QR8N8 with PID 29284 (started by ������ in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 15:57:01.773 DEBUG ---[main] com.studyboot.BoardControllerTest - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 15:57:01.775 INFO  ---[main] com.studyboot.BoardControllerTest - No active profile set, falling back to default profiles: default
+2019-12-16 15:57:03.119 INFO  ---[main] com.studyboot.BoardControllerTest - Started BoardControllerTest in 1.431 seconds (JVM running for 5.807)
+2019-12-16 15:57:03.121 TRACE ---[main] com.studyboot.LoggingRunner - TRACE �α׸޼���
+2019-12-16 15:57:03.121 DEBUG ---[main] com.studyboot.LoggingRunner - DEBUG �α׸޼���
+2019-12-16 15:57:03.121 INFO  ---[main] com.studyboot.LoggingRunner - INFO �α׸޼���
+2019-12-16 15:57:03.121 WARN  ---[main] com.studyboot.LoggingRunner - WARN �α׸޼���
+2019-12-16 15:57:03.121 ERROR ---[main] com.studyboot.LoggingRunner - ERROR �α׸޼���
+2019-12-16 15:57:03.578 INFO  ---[main] com.studyboot.PropertiesTest - Starting PropertiesTest on DESKTOP-H5QR8N8 with PID 29284 (started by ������ in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 15:57:03.578 DEBUG ---[main] com.studyboot.PropertiesTest - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 15:57:03.578 INFO  ---[main] com.studyboot.PropertiesTest - No active profile set, falling back to default profiles: default
+2019-12-16 15:57:04.206 INFO  ---[main] com.studyboot.PropertiesTest - Started PropertiesTest in 0.674 seconds (JVM running for 6.894)
+2019-12-16 15:57:04.207 TRACE ---[main] com.studyboot.LoggingRunner - TRACE �α׸޼���
+2019-12-16 15:57:04.207 DEBUG ---[main] com.studyboot.LoggingRunner - DEBUG �α׸޼���
+2019-12-16 15:57:04.207 INFO  ---[main] com.studyboot.LoggingRunner - INFO �α׸޼���
+2019-12-16 15:57:04.208 WARN  ---[main] com.studyboot.LoggingRunner - WARN �α׸޼���
+2019-12-16 15:57:04.208 ERROR ---[main] com.studyboot.LoggingRunner - ERROR �α׸޼���
+2019-12-16 15:57:04.250 INFO  ---[main] com.studyboot.TestBusinessComponent - Starting TestBusinessComponent on DESKTOP-H5QR8N8 with PID 29284 (started by ������ in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 15:57:04.250 DEBUG ---[main] com.studyboot.TestBusinessComponent - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 15:57:04.251 INFO  ---[main] com.studyboot.TestBusinessComponent - No active profile set, falling back to default profiles: default
+2019-12-16 15:57:05.364 INFO  ---[main] com.studyboot.TestBusinessComponent - Started TestBusinessComponent in 1.147 seconds (JVM running for 8.052)
+2019-12-16 15:57:05.366 TRACE ---[main] com.studyboot.LoggingRunner - TRACE �α׸޼���
+2019-12-16 15:57:05.367 DEBUG ---[main] com.studyboot.LoggingRunner - DEBUG �α׸޼���
+2019-12-16 15:57:05.367 INFO  ---[main] com.studyboot.LoggingRunner - INFO �α׸޼���
+2019-12-16 15:57:05.367 WARN  ---[main] com.studyboot.LoggingRunner - WARN �α׸޼���
+2019-12-16 15:57:05.368 ERROR ---[main] com.studyboot.LoggingRunner - ERROR �α׸޼���
+2019-12-16 16:21:44.914 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Starting Chapter03Application on DESKTOP-H5QR8N8 with PID 4288 (D:\06.sts\work5_springboot\Chapter03\target\classes started by 이정희 in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 16:21:44.918 DEBUG ---[restartedMain] com.studyboot.Chapter03Application - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 16:21:44.918 INFO  ---[restartedMain] com.studyboot.Chapter03Application - No active profile set, falling back to default profiles: default
+2019-12-16 16:22:04.522 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Starting Chapter03Application on DESKTOP-H5QR8N8 with PID 10788 (D:\06.sts\work5_springboot\Chapter03\target\classes started by 이정희 in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 16:22:04.537 DEBUG ---[restartedMain] com.studyboot.Chapter03Application - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 16:22:04.537 INFO  ---[restartedMain] com.studyboot.Chapter03Application - No active profile set, falling back to default profiles: default
+2019-12-16 16:22:05.853 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Started Chapter03Application in 1.661 seconds (JVM running for 3.558)
+2019-12-16 16:22:05.854 TRACE ---[restartedMain] com.studyboot.LoggingRunner - TRACE 로그메세지
+2019-12-16 16:22:05.854 DEBUG ---[restartedMain] com.studyboot.LoggingRunner - DEBUG 로그메세지
+2019-12-16 16:22:05.854 INFO  ---[restartedMain] com.studyboot.LoggingRunner - INFO 로그메세지
+2019-12-16 16:22:05.854 WARN  ---[restartedMain] com.studyboot.LoggingRunner - WARN 로그메세지
+2019-12-16 16:22:05.854 ERROR ---[restartedMain] com.studyboot.LoggingRunner - ERROR 로그메세지
+2019-12-16 16:26:27.826 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Starting Chapter03Application on DESKTOP-H5QR8N8 with PID 10852 (D:\06.sts\work5_springboot\Chapter03\target\classes started by 이정희 in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 16:26:27.828 DEBUG ---[restartedMain] com.studyboot.Chapter03Application - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 16:26:27.829 INFO  ---[restartedMain] com.studyboot.Chapter03Application - No active profile set, falling back to default profiles: default
+2019-12-16 16:26:29.485 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Started Chapter03Application in 2.02 seconds (JVM running for 4.889)
+2019-12-16 16:26:29.485 TRACE ---[restartedMain] com.studyboot.LoggingRunner - TRACE 로그메세지
+2019-12-16 16:26:29.485 DEBUG ---[restartedMain] com.studyboot.LoggingRunner - DEBUG 로그메세지
+2019-12-16 16:26:29.486 INFO  ---[restartedMain] com.studyboot.LoggingRunner - INFO 로그메세지
+2019-12-16 16:26:29.486 WARN  ---[restartedMain] com.studyboot.LoggingRunner - WARN 로그메세지
+2019-12-16 16:26:29.486 ERROR ---[restartedMain] com.studyboot.LoggingRunner - ERROR 로그메세지
+2019-12-16 16:33:34.726 INFO  ---[main] com.studyboot.Chapter03ApplicationTests - Starting Chapter03ApplicationTests on DESKTOP-H5QR8N8 with PID 14320 (started by ������ in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 16:33:34.729 DEBUG ---[main] com.studyboot.Chapter03ApplicationTests - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 16:33:34.729 INFO  ---[main] com.studyboot.Chapter03ApplicationTests - No active profile set, falling back to default profiles: default
+2019-12-16 16:33:36.436 INFO  ---[main] com.studyboot.Chapter03ApplicationTests - Started Chapter03ApplicationTests in 2.094 seconds (JVM running for 3.619)
+2019-12-16 16:33:36.437 TRACE ---[main] com.studyboot.LoggingRunner - TRACE �α׸޼���
+2019-12-16 16:33:36.437 DEBUG ---[main] com.studyboot.LoggingRunner - DEBUG �α׸޼���
+2019-12-16 16:33:36.437 INFO  ---[main] com.studyboot.LoggingRunner - INFO �α׸޼���
+2019-12-16 16:33:36.437 WARN  ---[main] com.studyboot.LoggingRunner - WARN �α׸޼���
+2019-12-16 16:33:36.437 ERROR ---[main] com.studyboot.LoggingRunner - ERROR �α׸޼���
+2019-12-16 16:33:36.737 INFO  ---[main] com.studyboot.BoardControllerTest - Starting BoardControllerTest on DESKTOP-H5QR8N8 with PID 14320 (started by ������ in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 16:33:36.737 DEBUG ---[main] com.studyboot.BoardControllerTest - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 16:33:36.738 INFO  ---[main] com.studyboot.BoardControllerTest - No active profile set, falling back to default profiles: default
+2019-12-16 16:33:38.899 INFO  ---[main] com.studyboot.BoardControllerTest - Started BoardControllerTest in 2.205 seconds (JVM running for 6.082)
+2019-12-16 16:33:38.900 TRACE ---[main] com.studyboot.LoggingRunner - TRACE �α׸޼���
+2019-12-16 16:33:38.900 DEBUG ---[main] com.studyboot.LoggingRunner - DEBUG �α׸޼���
+2019-12-16 16:33:38.900 INFO  ---[main] com.studyboot.LoggingRunner - INFO �α׸޼���
+2019-12-16 16:33:38.900 WARN  ---[main] com.studyboot.LoggingRunner - WARN �α׸޼���
+2019-12-16 16:33:38.901 ERROR ---[main] com.studyboot.LoggingRunner - ERROR �α׸޼���
+2019-12-16 16:33:39.300 INFO  ---[main] com.studyboot.PropertiesTest - Starting PropertiesTest on DESKTOP-H5QR8N8 with PID 14320 (started by ������ in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 16:33:39.300 DEBUG ---[main] com.studyboot.PropertiesTest - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 16:33:39.301 INFO  ---[main] com.studyboot.PropertiesTest - No active profile set, falling back to default profiles: default
+2019-12-16 16:33:39.945 INFO  ---[main] com.studyboot.PropertiesTest - Started PropertiesTest in 0.69 seconds (JVM running for 7.128)
+2019-12-16 16:33:39.946 TRACE ---[main] com.studyboot.LoggingRunner - TRACE �α׸޼���
+2019-12-16 16:33:39.946 DEBUG ---[main] com.studyboot.LoggingRunner - DEBUG �α׸޼���
+2019-12-16 16:33:39.946 INFO  ---[main] com.studyboot.LoggingRunner - INFO �α׸޼���
+2019-12-16 16:33:39.946 WARN  ---[main] com.studyboot.LoggingRunner - WARN �α׸޼���
+2019-12-16 16:33:39.946 ERROR ---[main] com.studyboot.LoggingRunner - ERROR �α׸޼���
+2019-12-16 16:33:40.031 INFO  ---[main] com.studyboot.TestBusinessComponent - Starting TestBusinessComponent on DESKTOP-H5QR8N8 with PID 14320 (started by ������ in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 16:33:40.032 DEBUG ---[main] com.studyboot.TestBusinessComponent - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 16:33:40.032 INFO  ---[main] com.studyboot.TestBusinessComponent - No active profile set, falling back to default profiles: default
+2019-12-16 16:33:41.088 INFO  ---[main] com.studyboot.TestBusinessComponent - Started TestBusinessComponent in 1.129 seconds (JVM running for 8.272)
+2019-12-16 16:33:41.089 TRACE ---[main] com.studyboot.LoggingRunner - TRACE �α׸޼���
+2019-12-16 16:33:41.089 DEBUG ---[main] com.studyboot.LoggingRunner - DEBUG �α׸޼���
+2019-12-16 16:33:41.089 INFO  ---[main] com.studyboot.LoggingRunner - INFO �α׸޼���
+2019-12-16 16:33:41.089 WARN  ---[main] com.studyboot.LoggingRunner - WARN �α׸޼���
+2019-12-16 16:33:41.089 ERROR ---[main] com.studyboot.LoggingRunner - ERROR �α׸޼���
+2019-12-16 16:34:05.678 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Starting Chapter03Application on DESKTOP-H5QR8N8 with PID 13024 (D:\06.sts\work5_springboot\Chapter03\target\classes started by 이정희 in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 16:34:05.681 DEBUG ---[restartedMain] com.studyboot.Chapter03Application - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 16:34:05.682 INFO  ---[restartedMain] com.studyboot.Chapter03Application - No active profile set, falling back to default profiles: default
+2019-12-16 16:34:06.951 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Started Chapter03Application in 1.598 seconds (JVM running for 3.521)
+2019-12-16 16:34:06.952 TRACE ---[restartedMain] com.studyboot.LoggingRunner - TRACE 로그메세지
+2019-12-16 16:34:06.952 DEBUG ---[restartedMain] com.studyboot.LoggingRunner - DEBUG 로그메세지
+2019-12-16 16:34:06.952 INFO  ---[restartedMain] com.studyboot.LoggingRunner - INFO 로그메세지
+2019-12-16 16:34:06.953 WARN  ---[restartedMain] com.studyboot.LoggingRunner - WARN 로그메세지
+2019-12-16 16:34:06.953 ERROR ---[restartedMain] com.studyboot.LoggingRunner - ERROR 로그메세지
+2019-12-16 16:34:21.494 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Starting Chapter03Application on DESKTOP-H5QR8N8 with PID 13024 (D:\06.sts\work5_springboot\Chapter03\target\classes started by 이정희 in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 16:34:21.495 DEBUG ---[restartedMain] com.studyboot.Chapter03Application - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 16:34:21.495 INFO  ---[restartedMain] com.studyboot.Chapter03Application - No active profile set, falling back to default profiles: default
+2019-12-16 16:34:21.853 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Started Chapter03Application in 0.389 seconds (JVM running for 18.422)
+2019-12-16 16:34:21.853 TRACE ---[restartedMain] com.studyboot.LoggingRunner - TRACE 로그메세지
+2019-12-16 16:34:21.853 DEBUG ---[restartedMain] com.studyboot.LoggingRunner - DEBUG 로그메세지
+2019-12-16 16:34:21.853 INFO  ---[restartedMain] com.studyboot.LoggingRunner - INFO 로그메세지
+2019-12-16 16:34:21.853 WARN  ---[restartedMain] com.studyboot.LoggingRunner - WARN 로그메세지
+2019-12-16 16:34:21.853 ERROR ---[restartedMain] com.studyboot.LoggingRunner - ERROR 로그메세지
+2019-12-16 16:41:31.872 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Starting Chapter03Application on DESKTOP-H5QR8N8 with PID 13024 (D:\06.sts\work5_springboot\Chapter03\target\classes started by 이정희 in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 16:41:31.872 DEBUG ---[restartedMain] com.studyboot.Chapter03Application - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 16:41:31.872 INFO  ---[restartedMain] com.studyboot.Chapter03Application - No active profile set, falling back to default profiles: default
+2019-12-16 16:41:32.224 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Started Chapter03Application in 0.382 seconds (JVM running for 448.794)
+2019-12-16 16:41:32.224 TRACE ---[restartedMain] com.studyboot.LoggingRunner - TRACE 로그메세지
+2019-12-16 16:41:32.224 DEBUG ---[restartedMain] com.studyboot.LoggingRunner - DEBUG 로그메세지
+2019-12-16 16:41:32.224 INFO  ---[restartedMain] com.studyboot.LoggingRunner - INFO 로그메세지
+2019-12-16 16:41:32.224 WARN  ---[restartedMain] com.studyboot.LoggingRunner - WARN 로그메세지
+2019-12-16 16:41:32.224 ERROR ---[restartedMain] com.studyboot.LoggingRunner - ERROR 로그메세지
+2019-12-16 16:41:57.760 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Starting Chapter03Application on DESKTOP-H5QR8N8 with PID 13024 (D:\06.sts\work5_springboot\Chapter03\target\classes started by 이정희 in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 16:41:57.760 DEBUG ---[restartedMain] com.studyboot.Chapter03Application - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 16:41:57.760 INFO  ---[restartedMain] com.studyboot.Chapter03Application - No active profile set, falling back to default profiles: default
+2019-12-16 16:43:41.848 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Starting Chapter03Application on DESKTOP-H5QR8N8 with PID 9104 (D:\06.sts\work5_springboot\Chapter03\target\classes started by 이정희 in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 16:43:41.851 DEBUG ---[restartedMain] com.studyboot.Chapter03Application - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 16:43:41.851 INFO  ---[restartedMain] com.studyboot.Chapter03Application - No active profile set, falling back to default profiles: default
+2019-12-16 16:43:43.133 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Started Chapter03Application in 1.616 seconds (JVM running for 3.526)
+2019-12-16 16:43:43.134 TRACE ---[restartedMain] com.studyboot.LoggingRunner - TRACE 로그메세지
+2019-12-16 16:43:43.134 DEBUG ---[restartedMain] com.studyboot.LoggingRunner - DEBUG 로그메세지
+2019-12-16 16:43:43.134 INFO  ---[restartedMain] com.studyboot.LoggingRunner - INFO 로그메세지
+2019-12-16 16:43:43.134 WARN  ---[restartedMain] com.studyboot.LoggingRunner - WARN 로그메세지
+2019-12-16 16:43:43.134 ERROR ---[restartedMain] com.studyboot.LoggingRunner - ERROR 로그메세지
+2019-12-16 16:52:00.245 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Starting Chapter03Application on DESKTOP-H5QR8N8 with PID 9104 (D:\06.sts\work5_springboot\Chapter03\target\classes started by 이정희 in D:\06.sts\work5_springboot\Chapter03)
+2019-12-16 16:52:00.245 DEBUG ---[restartedMain] com.studyboot.Chapter03Application - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-16 16:52:00.246 INFO  ---[restartedMain] com.studyboot.Chapter03Application - No active profile set, falling back to default profiles: default
+2019-12-16 16:52:00.646 INFO  ---[restartedMain] com.studyboot.Chapter03Application - Started Chapter03Application in 0.436 seconds (JVM running for 501.039)
+2019-12-16 16:52:00.647 TRACE ---[restartedMain] com.studyboot.LoggingRunner - TRACE 로그메세지
+2019-12-16 16:52:00.647 DEBUG ---[restartedMain] com.studyboot.LoggingRunner - DEBUG 로그메세지
+2019-12-16 16:52:00.647 INFO  ---[restartedMain] com.studyboot.LoggingRunner - INFO 로그메세지
+2019-12-16 16:52:00.647 WARN  ---[restartedMain] com.studyboot.LoggingRunner - WARN 로그메세지
+2019-12-16 16:52:00.647 ERROR ---[restartedMain] com.studyboot.LoggingRunner - ERROR 로그메세지
