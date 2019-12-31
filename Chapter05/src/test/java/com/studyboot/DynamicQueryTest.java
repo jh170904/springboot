@@ -21,7 +21,7 @@ public class DynamicQueryTest {
 	@Autowired
 	private DynamicBoardRepository boardRepo;
 	
-	@Test
+	//@Test
 	public void testDynamicQuery() {
 		String searchCondition = "CONTENT";
 		String searchKeyword = "테스트 제목10";

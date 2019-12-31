@@ -31,7 +31,7 @@ public class QueryMethodTest {
 			Board b = new Board();
 			
 			b.setTitle("테스트 제목"+i);
-			b.setWriter("테스터");
+//			b.setWriter("테스터");
 			b.setContent("테스트 내용"+i);
 			b.setCreateDate(new Date());
 			b.setCnt(0L);

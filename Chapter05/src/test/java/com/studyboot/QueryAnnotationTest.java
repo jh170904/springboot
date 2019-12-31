@@ -34,14 +34,14 @@ public class QueryAnnotationTest {
 	}
 	
 	//@Test
-	public void testQueryAnnotationTest2() {
+/*	public void testQueryAnnotationTest2() {
 		List<Object[]> boardList = boardRepo.queryAnnotationTest2("테스트 제목10");
 		System.out.println("검색 결과");
 		for(Object[] row : boardList){
 			System.out.println("--------> "+Arrays.toString(row));
 		}
 	}
-	
+*/	
 	//@Test
 	public void testQueryAnnotationTest3() {
 		List<Object[]> boardList = boardRepo.queryAnnotationTest3("테스트 제목10");
@@ -51,7 +51,7 @@ public class QueryAnnotationTest {
 		}
 	}
 	
-	@Test
+	//@Test
 	public void testQueryAnnotationTest4() {
 		Pageable paging  = PageRequest.of(0, 3, Sort.Direction.DESC, "seq");
 		//첫번째 페이지부터 세개의 데이터씩, 정렬은 seq기준으로 내림차순
