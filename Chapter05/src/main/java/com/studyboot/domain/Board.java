@@ -16,7 +16,7 @@ import lombok.ToString;
 
 @Getter
 @Setter
-@ToString
+@ToString(exclude = "member") //상호 호출 연결고리를 끊기 위해 exclude 속성 설정. 
 @Entity
 public class Board {
 	@Id
@@ -30,6 +30,12 @@ public class Board {
 	private Long cnt;
 	
 	@ManyToOne //다대일 관계설정
-	@JoinColumn(name="MEMBER_ID") //참조하는 외래키 칼럼과 매핑 관계를 설정하는 어노테이션
+	@JoinColumn(name="MEMBER_ID", nullable = false) //참조하는 외래키 칼럼과 매핑 관계를 설정하는 어노테이션
 	private Member member;
+	
+	//영속상태가 아닌 단순한 일반 자바 객체 상태에서도 관련된 데이터를 사용하기 위함
+	public void setMember(Member member) {
+		this.member = member;
+		member.getBoardList().add(this);
+	}
 }
