@@ -1,5 +1,6 @@
 package com.studyboot.domain;
 
+
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -21,4 +22,5 @@ public class Member {
 	@Enumerated(EnumType.STRING)
 	private Role role;
 	private boolean enabled;
+	
 }
