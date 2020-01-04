@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.studyboot.domain.Board;
@@ -24,20 +25,23 @@ public class BoardRepositoryTest {
 	@Autowired
 	private MemberRepository memberRepo;
 	
+	@Autowired
+	private PasswordEncoder encoder;
+	
 	@Test //입력테스트
 	public void testInsert() {
 		
 		Member mem1 = new Member();
 		mem1.setId("mem1");
 		mem1.setName("hello");
-		mem1.setPassword("123");
+		mem1.setPassword(encoder.encode("123"));
 		mem1.setRole(Role.ROLE_MEMBER);
 		memberRepo.save(mem1); //회원정보를 먼저 영속성 컨텍스트에 저장
 		
 		Member mem2 = new Member();
 		mem2.setId("mem2");
 		mem2.setName("bye");
-		mem2.setPassword("456");
+		mem2.setPassword(encoder.encode("456"));
 		mem2.setRole(Role.ROLE_ADMIN);
 		memberRepo.save(mem2);
 		
@@ -58,7 +62,7 @@ public class BoardRepositoryTest {
 		}
 	}
 	
-	@Test //상세 조회 테스트
+//	@Test //상세 조회 테스트
 	public void testGetBoard() {
 		Board board = boardRepo.findById(1L).get();
 		
@@ -70,7 +74,7 @@ public class BoardRepositoryTest {
 		System.out.println("조회수\t :"+ board.getCnt());
 	}
 	
-	@Test //목록 조회 테스트
+//	@Test //목록 조회 테스트
 	public void testGetBoardList() {
 		Member member = memberRepo.findById("mem1").get();
 
