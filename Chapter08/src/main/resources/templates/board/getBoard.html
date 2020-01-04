@@ -39,6 +39,7 @@
 </form>
 <hr>
 <a th:href="@{/board/insertBoard}">글 등록</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- 타임리프 로그인정보 이용, 어드인 권한 사용자만 삭제 링크 사용 -->
 <a sec:authorize="hasRole('ROLE_ADMIN')" 
 	th:href="@{/board/deleteBoard(seq=${board.seq })}">글 삭제</a>&nbsp;&nbsp;&nbsp;&nbsp; 
 <a th:href="@{/board/getBoardList}">리스트</a>&nbsp;&nbsp;&nbsp;&nbsp;

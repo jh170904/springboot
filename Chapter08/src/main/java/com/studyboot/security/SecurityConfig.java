@@ -18,7 +18,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 	@Autowired
 	private SecurityUserDetailService userDetailService;
 
-	@Bean
+	@Bean //비밀번호 암호화
 	public PasswordEncoder passwordEncoder() {
 		return PasswordEncoderFactories.createDelegatingPasswordEncoder();
 	}
@@ -29,14 +29,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 		// 애플리케이션 자원에 대한 인증과 인가 제어 가능.
 		// authorizeRequests 사용자 인증과 권한 설정 
 		// antMatchers AuthorizedUrl 반환	
-		//빌더 패턴을 사용하므로 아래와 같이 작성가능 
-		security.authorizeRequests()
+		security.authorizeRequests() 		// 빌더 패턴을 사용
 					.antMatchers("/","/system/**").permitAll()
 					.antMatchers("/board/**").authenticated()
 					.antMatchers("/admin/**").hasRole("ADMIN");
 		
 		security.csrf().disable();
-
 		
 		security.formLogin(); // 사용자에게 form 태그 기반의 로그인 화면 표시 
 
@@ -54,5 +52,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 		
 		security.userDetailsService(userDetailService);
 	}
-	
 }

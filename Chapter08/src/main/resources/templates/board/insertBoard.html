@@ -15,7 +15,10 @@
 	</tr>
 	<tr>
 		<td bgcolor="#e3e3e3" width="70" th:text="작성자"></td>
-		<td align="left"><span sec:authentication="principal.member.name"></span></td>
+		<td align="left">
+			<!-- 로그인한 사용자의 이름 출력 -->
+			<span sec:authentication="principal.member.name"></span>
+		</td>
 	</tr>
 	<tr>
 		<td bgcolor="#e3e3e3" width="70" th:text="내용"></td>
